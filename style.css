@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.row{
+    margin: 5px;
+}
+img{
+    padding:5px;
+    border-radius: 10px;
+    margin-top:25px;
+}
+.card-header{
+    background:none;
+    border: none;
+    background-color: rgb(42, 42, 42);
+}
+.card{
+    background-image: linear-gradient(to right,rgb(193, 171, 200),rgb(232, 209, 248));
+}
+.but{
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.but:hover{
+    background-image: linear-gradient(to right,rgb(232, 209, 248),rgb(193, 171, 200));
+}
